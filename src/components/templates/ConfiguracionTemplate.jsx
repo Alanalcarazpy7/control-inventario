@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import fondocuadros from "../../assets/fondocuadros.svg";
+import fondocuadros from "../../assets/fondocuadros.svg?url";
 import { Link } from "react-router-dom";
 import { DataModulosConfiguracion } from "../../utils/dataEstatica";
 import { Mensaje } from "../moleculas/Mensaje";
