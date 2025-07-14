@@ -38,7 +38,6 @@ export function Categorias() {
   const statePermiso = datapermisos?.some((objeto) =>
     objeto.modulos.nombre.includes("Categoria de productos")
   );
-  console.log(datapermisos);
   if (isLoading || datapermisos.length === 0){
     return <SpinnerLoader />;
   }
